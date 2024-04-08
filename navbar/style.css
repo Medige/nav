@@ -1,0 +1,75 @@
+*{
+    text-decoration: none;
+    list-style: none;
+}
+
+.navbar{
+    background: crimson;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.navdiv{
+    display: flex;
+     align-items: center;   /* align-items: center; In y axis direction it will center the text*/
+     justify-content: space-between;   /*justify-content: center; ----------In x axis direction it will center the text*/
+
+}
+.logo a{
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+    
+}
+li{
+    display: inline-block;
+}
+
+li a{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+button{
+    background: black;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90px;
+    
+}
+
+button a{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: 0.8s;
+}
+
+button:hover{
+    background-color:#fff;
+}
+button a:hover{
+    color:orange
+}
+
+li:hover{
+    background-color: black;
+    border-radius: 15px;
+    padding-left: 20px;
+    transition: 0.8s;
+}
+.logo a:hover{
+
+    background-color: black;
+    border-radius: 20px;
+    color: orange;
+    transition: 0.8s;
+   
+}
+li a:hover{
+    color: orange;
+}
+
+
